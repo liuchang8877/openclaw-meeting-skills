@@ -1,0 +1,38 @@
+{
+  "zhang_ceo": {
+    "name": "张总",
+    "role": "CEO",
+    "dste_level": 1,
+    "department": "all",
+    "todo_source": "mock",
+    "todo_space_id": "YOUR_FEISHU_SPACE_ID",
+    "voiceprint_registered": false
+  },
+  "li_director": {
+    "name": "李总监",
+    "role": "产品总监",
+    "dste_level": 2,
+    "department": "product",
+    "todo_source": "mock",
+    "todo_space_id": "YOUR_FEISHU_SPACE_ID",
+    "voiceprint_registered": false
+  },
+  "wang_director": {
+    "name": "王总监",
+    "role": "销售总监",
+    "dste_level": 2,
+    "department": "sales",
+    "todo_source": "mock",
+    "todo_space_id": "YOUR_FEISHU_SPACE_ID",
+    "voiceprint_registered": false
+  },
+  "zhao_engineer": {
+    "name": "赵工",
+    "role": "工程负责人",
+    "dste_level": 3,
+    "department": "engineering",
+    "todo_source": "mock",
+    "todo_space_id": "YOUR_FEISHU_SPACE_ID",
+    "voiceprint_registered": false
+  }
+}

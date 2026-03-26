@@ -1,0 +1,6 @@
+{
+  "voice":   {"enabled": true,  "script": "voice_output.py"},
+  "lcd":     {"enabled": true,  "script": "lcd_push.py", "url_env": "PI_DISPLAY_URL"},
+  "feishu":  {"enabled": false, "note": "会议结束后批量推送，需配置 FEISHU_WEBHOOK_URL"},
+  "minutes": {"enabled": true,  "script": "minutes_push.py"}
+}

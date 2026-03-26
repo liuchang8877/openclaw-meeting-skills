@@ -1,0 +1,30 @@
+{
+  "todo": {
+    "enabled": true,
+    "description": "个人和团队待办任务",
+    "script": "mock_query",
+    "allowed_levels": [1, 2, 3, 4],
+    "config": {"table_type": "todo", "space_id": "YOUR_FEISHU_SPACE_ID"}
+  },
+  "order": {
+    "enabled": true,
+    "description": "销售订单数据",
+    "script": "mock_query",
+    "allowed_levels": [1, 2],
+    "config": {"crm_endpoint": "http://localhost:9000/api/orders"}
+  },
+  "okr": {
+    "enabled": true,
+    "description": "OKR 目标和关键结果进度",
+    "script": "mock_query",
+    "allowed_levels": [1, 2, 3],
+    "config": {"table_type": "okr", "space_id": "YOUR_OKR_SPACE_ID"}
+  },
+  "sales": {
+    "enabled": false,
+    "description": "销售额汇总（待接入真实数据源）",
+    "script": "mock_query",
+    "allowed_levels": [1, 2],
+    "config": {}
+  }
+}

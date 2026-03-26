@@ -1,0 +1,9 @@
+{
+  "resolution": "240x240",
+  "rows": [
+    {"id": "speaker",  "y_start": 0,   "y_end": 70,  "color": "orange", "font_size": 32, "label": "当前说话人"},
+    {"id": "agenda",   "y_start": 72,  "y_end": 140, "color": "white",  "font_size": 20, "label": "议程进度"},
+    {"id": "stats",    "y_start": 142, "y_end": 190, "color": "green",  "font_size": 20, "label": "决策/行动统计"},
+    {"id": "status",   "y_start": 192, "y_end": 240, "color": "gray",   "font_size": 16, "label": "时间+会议状态"}
+  ]
+}

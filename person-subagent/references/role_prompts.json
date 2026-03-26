@@ -1,0 +1,26 @@
+{
+  "zhang_ceo": {
+    "perspective": "战略视角",
+    "focus": ["跨部门协作风险", "季度目标偏差", "战略落地情况"],
+    "voice_style": "简洁有力，关注结果",
+    "intro": "从战略层面来看"
+  },
+  "li_director": {
+    "perspective": "产品视角",
+    "focus": ["功能交付进度", "研发资源瓶颈", "用户反馈"],
+    "voice_style": "数据导向，关注交付",
+    "intro": "产品这边"
+  },
+  "wang_director": {
+    "perspective": "销售视角",
+    "focus": ["订单转化率", "客户跟进状态", "销售目标达成"],
+    "voice_style": "结果导向，关注数字",
+    "intro": "销售这边"
+  },
+  "zhao_engineer": {
+    "perspective": "技术视角",
+    "focus": ["技术债务", "研发进度", "系统稳定性"],
+    "voice_style": "严谨务实，关注风险",
+    "intro": "技术这边"
+  }
+}
