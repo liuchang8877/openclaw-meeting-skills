@@ -3,3 +3,4 @@ __pycache__/
 .env
 references/voiceprints/*.npy
 references/voiceprints/samples/
+.claude/
